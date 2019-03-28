@@ -1,0 +1,57 @@
+body {
+    font-family: 'Orienta', sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.control-panel {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 5%;
+}
+#difficulty {
+    font-family: 'Orienta', sans-serif;
+    height: 30px;
+    width: 80px;
+}
+.new-game {
+    background-color: rgb(145, 151, 150);
+    font-family: 'Orienta', sans-serif;
+    color: black;
+    height: 30px;
+    width: 100px;
+}
+
+.sudoku-square {
+    width: 30px;
+    height: 30px;
+    transition: all .8s ease;
+    outline: none;
+}
+
+.style-grey, textarea {
+    background-color: grey; 
+    border-color: black;
+}
+
+tr {
+    margin: 1px;
+}
+
+.correct-entry  {
+    border-color: greenyellow; 
+    transform: scale(1.1);
+}
+
+.wrong-entry {
+    border-color: rgb(255, 0, 0);
+    transform: scale(1.1); 
+}

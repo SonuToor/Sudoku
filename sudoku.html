@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sudoku</title>
+    <link href="https://fonts.googleapis.com/css?family=Orienta" rel="stylesheet">
+    <link rel="stylesheet" href="./sudoku.css">
+</head>
+<body>
+    <h1>Sudoku</h1>
+    <form class="control-panel">
+        <select name="mode" id="difficulty" placeholder="Select Difficulty" required>
+            <option value="60">Easy</option>
+            <option value="50">Medium</option>
+            <option value="38">Hard</option>
+        </select>
+        <button type="submit" class="new-game">New Game</button>
+    </form>
+    <form class="game-panel">
+        <table class="board">
+        </table>
+    </form>
+    <script src='./sudoku.js'></script>
+</body>
+</html>
